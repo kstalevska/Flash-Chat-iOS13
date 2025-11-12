@@ -1,0 +1,8 @@
+Pods/
+DerivedData/
+build/
+GoogleService-Info.plist
+.env
+*.xcuserstate
+*.DS_Store
+

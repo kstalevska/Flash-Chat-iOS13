@@ -24,6 +24,7 @@
 		5CD96B6B2EC1DBD10079B015 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD96B6A2EC1DBD10079B015 /* Constants.swift */; };
 		5CD96B722EC2014E0079B015 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD96B702EC2014E0079B015 /* MessageCell.swift */; };
 		5CD96B732EC2014E0079B015 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD96B712EC2014E0079B015 /* MessageCell.xib */; };
+		5CD96B772EC4B0420079B015 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5CD96B762EC4B0420079B015 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		5CD96B6A2EC1DBD10079B015 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5CD96B702EC2014E0079B015 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		5CD96B712EC2014E0079B015 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		5CD96B762EC4B0420079B015 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -93,6 +95,7 @@
 				0B628184235DEE8400E35CAF /* Info.plist */,
 				5CD96B5F2EC0B38C0079B015 /* GoogleService-Info.plist */,
 				5CD96B6A2EC1DBD10079B015 /* Constants.swift */,
+				5CD96B762EC4B0420079B015 /* .gitignore */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				5CD96B772EC4B0420079B015 /* .gitignore in Resources */,
 				5CD96B732EC2014E0079B015 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				5CD96B602EC0B38C0079B015 /* GoogleService-Info.plist in Resources */,
