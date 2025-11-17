@@ -13,6 +13,8 @@ import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -22,6 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         IQKeyboardManager.shared.isEnabled = true
         IQKeyboardManager.shared.resignOnTouchOutside = true
+        
+        // Створюємо appearance
+               let appearance = UINavigationBarAppearance()
+               appearance.configureWithOpaqueBackground()   // або configureWithTransparentBackground()
+        appearance.backgroundColor = UIColor(named:K.BrandColors.brandBlue)  // колір фону
+               appearance.titleTextAttributes = [.foregroundColor: UIColor.white] // колір заголовку
+               appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+
+               // Призначаємо для всіх UINavigationBar
+               UINavigationBar.appearance().standardAppearance = appearance
+               UINavigationBar.appearance().scrollEdgeAppearance = appearance
+               UINavigationBar.appearance().compactAppearance = appearance // для компактних navbar (iPhone)
+
+               UINavigationBar.appearance().tintColor = .white // колір кнопок, включно з back button
 
         return true
     }
